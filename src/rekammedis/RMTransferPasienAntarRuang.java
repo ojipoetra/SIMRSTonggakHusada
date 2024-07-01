@@ -265,6 +265,8 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
     private void initComponents() {
 
         LoadHTML = new widget.editorpane();
+        jPopupMenu1 = new javax.swing.JPopupMenu();
+        MnTransferPasien = new javax.swing.JMenuItem();
         internalFrame1 = new widget.InternalFrame();
         panelGlass8 = new widget.panelisi();
         BtnSimpan = new widget.Button();
@@ -403,6 +405,17 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
 
         LoadHTML.setBorder(null);
         LoadHTML.setName("LoadHTML"); // NOI18N
+
+        jPopupMenu1.setName("jPopupMenu1"); // NOI18N
+
+        MnTransferPasien.setLabel("Laporan Transfer Pasien");
+        MnTransferPasien.setName("MnTransferPasien"); // NOI18N
+        MnTransferPasien.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MnTransferPasienActionPerformed(evt);
+            }
+        });
+        jPopupMenu1.add(MnTransferPasien);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -646,7 +659,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
         jLabel11.setBounds(740, 10, 30, 23);
 
         TanggalMasuk.setForeground(new java.awt.Color(50, 70, 50));
-        TanggalMasuk.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-04-2023 11:05:53" }));
+        TanggalMasuk.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "24-05-2023 14:51:33" }));
         TanggalMasuk.setDisplayFormat("dd-MM-yyyy HH:mm:ss");
         TanggalMasuk.setName("TanggalMasuk"); // NOI18N
         TanggalMasuk.setOpaque(false);
@@ -665,7 +678,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
         label12.setBounds(201, 40, 55, 23);
 
         TanggalPindah.setForeground(new java.awt.Color(50, 70, 50));
-        TanggalPindah.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-04-2023 11:05:53" }));
+        TanggalPindah.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "24-05-2023 14:51:34" }));
         TanggalPindah.setDisplayFormat("dd-MM-yyyy HH:mm:ss");
         TanggalPindah.setName("TanggalPindah"); // NOI18N
         TanggalPindah.setOpaque(false);
@@ -722,7 +735,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
         jLabel14.setText("Metode Pemindahan :");
         jLabel14.setName("jLabel14"); // NOI18N
         FormInput.add(jLabel14);
-        jLabel14.setBounds(629, 80, 106, 23);
+        jLabel14.setBounds(629, 80, 104, 23);
 
         jLabel15.setText("Ruang Rawat Selanjutnya :");
         jLabel15.setName("jLabel15"); // NOI18N
@@ -1357,7 +1370,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
         panelGlass9.add(jLabel19);
 
         DTPCari1.setForeground(new java.awt.Color(50, 70, 50));
-        DTPCari1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-04-2023" }));
+        DTPCari1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "24-05-2023" }));
         DTPCari1.setDisplayFormat("dd-MM-yyyy");
         DTPCari1.setName("DTPCari1"); // NOI18N
         DTPCari1.setOpaque(false);
@@ -1371,7 +1384,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
         panelGlass9.add(jLabel21);
 
         DTPCari2.setForeground(new java.awt.Color(50, 70, 50));
-        DTPCari2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-04-2023" }));
+        DTPCari2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "24-05-2023" }));
         DTPCari2.setDisplayFormat("dd-MM-yyyy");
         DTPCari2.setName("DTPCari2"); // NOI18N
         DTPCari2.setOpaque(false);
@@ -2152,6 +2165,10 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
         }
     }//GEN-LAST:event_BtnRefreshPhoto1ActionPerformed
 
+    private void MnTransferPasienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MnTransferPasienActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_MnTransferPasienActionPerformed
+
     /**
     * @param args the command line arguments
     */
@@ -2205,6 +2222,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
     private widget.editorpane LoadHTML2;
     private widget.ComboBox MenyetujuiPemindahan;
     private widget.ComboBox MetodePemindahan;
+    private javax.swing.JMenuItem MnTransferPasien;
     private widget.TextBox NadiSebelumTransfer;
     private widget.TextBox NadiSetelahTransfer;
     private widget.TextBox NamaMenyetujui;
@@ -2282,6 +2300,7 @@ public final class RMTransferPasienAntarRuang extends javax.swing.JDialog {
     private widget.Label jLabel6;
     private widget.Label jLabel7;
     private widget.Label jLabel8;
+    private javax.swing.JPopupMenu jPopupMenu1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator14;
     private javax.swing.JSeparator jSeparator2;
