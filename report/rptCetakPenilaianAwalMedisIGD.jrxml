@@ -858,7 +858,7 @@ inner join dokter on penilaian_medis_igd.kd_dokter=dokter.kd_dokter]]>
 				</graphicElement>
 			</line>
 			<staticText>
-				<reportElement positionType="Float" x="3" y="679" width="250" height="11" uuid="0c78f62a-9d91-4381-9edc-eac750180c22">
+				<reportElement positionType="Float" x="3" y="723" width="250" height="11" uuid="0c78f62a-9d91-4381-9edc-eac750180c22">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -869,7 +869,7 @@ inner join dokter on penilaian_medis_igd.kd_dokter=dokter.kd_dokter]]>
 				<text><![CDATA[Tanggal dan Jam]]></text>
 			</staticText>
 			<staticText>
-				<reportElement positionType="Float" x="259" y="679" width="295" height="11" uuid="2cb620d8-a8bc-4e2e-9532-a8470b7005f3">
+				<reportElement positionType="Float" x="259" y="723" width="295" height="11" uuid="2cb620d8-a8bc-4e2e-9532-a8470b7005f3">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -880,7 +880,7 @@ inner join dokter on penilaian_medis_igd.kd_dokter=dokter.kd_dokter]]>
 				<text><![CDATA[Nama Dokter dan Tanda Tangan]]></text>
 			</staticText>
 			<textField pattern="MMM, dd/MM/yyyy hh:mm:ss z">
-				<reportElement positionType="Float" mode="Transparent" x="3" y="705" width="250" height="11" uuid="f2456642-100c-41a8-b7ed-73dc8e8b1e66">
+				<reportElement positionType="Float" mode="Transparent" x="3" y="749" width="250" height="11" uuid="f2456642-100c-41a8-b7ed-73dc8e8b1e66">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
@@ -890,7 +890,7 @@ inner join dokter on penilaian_medis_igd.kd_dokter=dokter.kd_dokter]]>
 				<textFieldExpression><![CDATA[$F{tanggal}]]></textFieldExpression>
 			</textField>
 			<componentElement>
-				<reportElement positionType="Float" x="259" y="692" width="87" height="40" isRemoveLineWhenBlank="true" uuid="ca573ded-493e-4285-9aa1-76f543dabb97">
+				<reportElement positionType="Float" x="259" y="736" width="87" height="40" isRemoveLineWhenBlank="true" uuid="ca573ded-493e-4285-9aa1-76f543dabb97">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
@@ -898,7 +898,7 @@ inner join dokter on penilaian_medis_igd.kd_dokter=dokter.kd_dokter]]>
 				</jr:QRCode>
 			</componentElement>
 			<textField isStretchWithOverflow="true">
-				<reportElement positionType="Float" mode="Transparent" x="259" y="720" width="295" height="11" uuid="15269d1e-5458-46d8-b993-8560eba888ef">
+				<reportElement positionType="Float" mode="Transparent" x="259" y="764" width="295" height="11" uuid="15269d1e-5458-46d8-b993-8560eba888ef">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
@@ -961,8 +961,8 @@ inner join dokter on penilaian_medis_igd.kd_dokter=dokter.kd_dokter]]>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{diagnosis}]]></textFieldExpression>
 			</textField>
-			<textField>
-				<reportElement positionType="Float" x="3" y="638" width="550" height="33" uuid="baec15bb-a911-46e5-b23e-d36dec50bb0f">
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="3" y="638" width="550" height="72" uuid="baec15bb-a911-46e5-b23e-d36dec50bb0f">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Top">
