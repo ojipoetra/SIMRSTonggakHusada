@@ -3,15 +3,16 @@
 <properties>
     <comment>KhanzaHMS</comment> 
     <entry key="HOST">5k7+C7EnUw9nUv2Nix+DBA==</entry>
-    <entry key="DATABASE">eDZMhiQ1wF81kqjSTYu5JQ==</entry>
+    <entry key="DATABASE">7g131ccGngOf3o1Z04OcoA==</entry>
     <entry key="PORT">nioxtijcpDaKSUiUiP5FAg==</entry>
-    <entry key="USER">ui1a6rjULHbO/lsL1UMdKw==</entry>
-    <entry key="PAS">Em4gdD990T9H8j6IjhNmhA==</entry>
+    <entry key="USER">2Hk4Po/AVma8Bh27CWGmgA==</entry>
+    <entry key="PAS">loj4v1AAtSegt2vKm/EVZg==</entry>
     <entry key="CARICEPAT">aktif</entry>
 
     <entry key="HOSTHYBRIDWEB">5k7+C7EnUw9nUv2Nix+DBA==</entry>
     <entry key="USERHYBRIDWEB">nmXqCKzrz9i8GTZlq7JruQ==</entry>
     <entry key="PASHYBRIDWEB">AsJ/0/gCnYnD+gK4fw9uKA==</entry>
+
     <entry key="HYBRIDWEB">webapps</entry>
     <entry key="PORTWEB">80</entry>
 
